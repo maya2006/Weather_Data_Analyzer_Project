@@ -1,101 +1,66 @@
-🌦 Project Title: Weather Data Analyzer
+# 🌦 Weather Data Analyzer
 
-
----
-
-📝 Project Overview
-
-The Weather Data Analyzer is a Python-based data science mini project that analyzes historical weather data to identify trends, visualize patterns, and predict future temperatures using a simple Machine Learning algorithm. The project is built as part of Arttifai Tech's internship requirement and focuses on transforming raw weather data into meaningful visual insights.
-
+A Python-based data science mini project that analyzes historical weather data, visualizes it, and predicts future temperature using Linear Regression. Built as part of the *Arttifai Tech Internship Program*, this project transforms raw data into valuable insights.
 
 ---
 
-🎯 Key Objectives
+## 🎯 Project Objectives
 
-1. Visualize weather patterns such as temperature, rainfall, and humidity over time.
-
-
-2. Discover relationships between humidity and temperature.
-
-
-3. Forecast future temperature trends using Linear Regression.
-
-
-4. Save all visual outputs as .png files for easy reference and documentation.
-
-
-
+- 📈 Visualize *temperature trends* over the years
+- 🌧 Display *rainfall distribution*
+- 🔵 Show *correlation between humidity and temperature*
+- 🔮 Predict future temperature using *Linear Regression*
+- 💾 Save all outputs as .png graphs
 
 ---
 
-📁 Project Structure
+## 🗂 Project Files
 
-File	Description
-
-weather_analyzer.py	Main Python script that performs analysis, visualization, and prediction
-weather_data.csv	Input dataset containing weather data
-temperature_trend.png	Line chart of temperature over the years
-rainfall_distribution.png	Bar graph showing rainfall per year
-humidity_vs_temperature.png	Scatter plot between humidity and temperature
-temperature_prediction.png	Linear Regression prediction graph
-(Optional) README.md	Project documentation file (this!)
-
-
+| File | Description |
+|------|-------------|
+| weather_analyzer.py | Main Python script with analysis, plots, and ML |
+| weather_data.csv | Raw weather dataset |
+| temperature_trend.png | Line chart of temperature by year |
+| rainfall_distribution.png | Bar chart of rainfall |
+| humidity_vs_temperature.png | Scatter plot of humidity vs temperature |
+| temperature_prediction.png | Forecast using Linear Regression |
 
 ---
 
-📊 Visualizations Done
+## 📊 Visualizations
 
-Line Chart: Shows how temperature has changed over time (temperature_trend.png)
-
-Bar Graph: Displays rainfall distribution per year (rainfall_distribution.png)
-
-Scatter Plot: Plots humidity vs temperature to observe correlation (humidity_vs_temperature.png)
-
-Prediction Chart: Uses Linear Regression to forecast future temperature (temperature_prediction.png)
-
-
+- *Line Chart* → Temperature trend (temperature_trend.png)
+- *Bar Graph* → Rainfall distribution (rainfall_distribution.png)
+- *Scatter Plot* → Humidity vs Temperature (humidity_vs_temperature.png)
+- *Prediction Graph* → Linear Regression prediction (temperature_prediction.png)
 
 ---
 
-🧠 Machine Learning Used
+## 🤖 Machine Learning Model
 
-Model Used: LinearRegression from scikit-learn
-
-Goal: Predict temperature based on years
-
-Model Evaluation Metrics:
-
-Mean Squared Error (MSE)
-
-Root Mean Squared Error (RMSE)
-
-
-These values are printed in the terminal as part of model evaluation.
-
-
+- *Model*: Linear Regression (scikit-learn)
+- *Target*: Predict future temperature
+- *Evaluation Metrics*:
+  - Mean Squared Error (MSE)
+  - Root Mean Squared Error (RMSE)
 
 ---
 
-🛠 Technologies Used
+## ⚙ Tech Stack
 
-Python 3.13.3
+- Python 3.13.3
+- Visual Studio Code
+- *Libraries Used*:
+  - pandas
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - numpy
 
-VS Code (Visual Studio Code) as the IDE
+---
 
-Libraries:
+## 🚀 How to Run
 
-pandas – data analysis
-
-matplotlib – charting
-
-seaborn – advanced plotting
-
-numpy – numeric operations
-
-scikit-learn – linear regression model
-
-
-
-
-
+1. Install dependencies:
+   ```bash
+   pip install pandas matplotlib seaborn scikit-learn numpy
